@@ -3,7 +3,7 @@ requires = ["setuptools"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "galmak"
+name = "gallery-maker"
 version = "0.0.1"
 authors = [
   { name="Vedrana Dahl", email="vedranaa@gmail.com" },
@@ -24,4 +24,4 @@ gallery_maker = "galmak:main"
 py-modules = ["galmak"]
 
 [project.urls]
-Homepage = "https://github"
+Homepage = "https://github.com/vedranaa/gallery_maker"

@@ -4,20 +4,16 @@
 See example html files generatied using gallery maker: [Fru Jensen](https://vedranaa.github.io/FJ/) and [posters2022](https://www2.imm.dtu.dk/courses/02506/posters2022.html).
 
 ## SETUP
-Either install the package from PyPI with `pip install galmak`  
-or install from source with the following steps
+Either install the package from PyPI with `pip install gallery-maker` or install from source with the following steps
 
 ## DEPENDENCIES
 Making gallery has no dependencies.
 
-A helper function for image processin is included, and it requires Pillow, which may be installed using:
-`python3 -m pip install Pillow`.
 
-Converting pdf images (only onepagers supported) is requires pdf2image, which is a wrapper around poppler. Poppler may be installed using:
-`conda install -c conda-forge poppler`
-
-Converting heic images is done using pillow_heif, which may be 
-installed using: `python3 -m pip install pillow-heif`
+A helper function for image processin is included, and it has dependencies, where you can add, what you need: 
+- Basic image processing uses [Pillow](https://pypi.org/project/pillow/).
+- Converting pdf to images (only onepagers supported) uses [pdf2image](https://pypi.org/project/pdf2image/), which requires installing popler, as explained at pdf2image page.
+- Converting heic images uses [pillow_heif](https://pypi.org/project/pillow-heif/).
 
 ## USAGE
 #### As Python module:
