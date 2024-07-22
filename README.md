@@ -3,12 +3,13 @@
 
 See example html files generatied using gallery maker: [Fru Jensen](https://vedranaa.github.io/FJ/) and [posters2022](https://www2.imm.dtu.dk/courses/02506/posters2022.html).
 
+For the simplest use, navigate to a folder with images and run `gallery_maker`. This will fint images (jpg, png or gif) and create a html file of a gallery with images. Images may be either directly in the folder or in one subfolder.
+
 ## SETUP
 Either install the package from PyPI with `pip install gallery-maker` or install from source with the following steps
 
 ## DEPENDENCIES
 Making gallery has no dependencies.
-
 
 A helper function for image processin is included, and it has dependencies, where you can add, what you need: 
 - Basic image processing uses [Pillow](https://pypi.org/project/pillow/).
