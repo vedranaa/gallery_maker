@@ -1,0 +1,27 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "galmak"
+version = "0.0.1"
+authors = [
+  { name="Vedrana Dahl", email="vedranaa@gmail.com" },
+]
+description = "Make an html file for an image gallery."
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.scripts]
+gallery_maker = "galmak:main"
+
+[tool.setuptools]
+py-modules = ["galmak"]
+
+[project.urls]
+Homepage = "https://github"
