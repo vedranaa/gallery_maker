@@ -1,7 +1,7 @@
 # gallery_maker
 *Make an html file for an image gallery.*
 
-See the example result: [Fru Jensen](https://vedranaa.github.io/FJ/) and [posters2022](https://www2.imm.dtu.dk/courses/02506/posters2022.html).
+See example html files generatied using gallery maker: [Fru Jensen](https://vedranaa.github.io/FJ/) and [posters2022](https://www2.imm.dtu.dk/courses/02506/posters2022.html).
 
 ## SETUP
 Either install the package from PyPI with `pip install galmak`  
