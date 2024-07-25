@@ -3,7 +3,9 @@
 
 See example html files generatied using gallery maker: [Fru Jensen](https://vedranaa.github.io/FJ/) and [posters2022](https://www2.imm.dtu.dk/courses/02506/posters2022.html).
 
-For the simplest use, navigate to a folder with images and run `gallery_maker`. This will fint images (jpg, png or gif) and create a html file of a gallery with images. Images may be either directly in the folder or in one subfolder.
+For the simplest use, navigate to a folder with images and run `gallery_maker`. (Note the underscore, not hyphen. Sorry about that.) This will find images (jpg, png or gif) and create a html file of a gallery with images. Images may be either directly in the folder or in one subfolder.
+
+ 
 
 ## SETUP
 Either install the package from PyPI with `pip install gallery-maker` or install from source with the following steps

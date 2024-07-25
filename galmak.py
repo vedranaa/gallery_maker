@@ -305,7 +305,7 @@ def main():
     parser.add_argument('--filename', default='gallery.html')
     parser.add_argument('--window_title', default='Gallery')
     parser.add_argument('--gallery_title', default='MY GALLERY')
-    parser.add_argument('--footer_text', default='Made by gallery_maker.py.')
+    parser.add_argument('--footer_text', default='Made by <a href="https://github.com/vedranaa/gallery_maker">gallery_maker.py</a>.')
 
     parser.add_argument('--from_ext', type=str, default=None, help='String with list of extensions to be converted.')
     parser.add_argument('--max_size', type=int, default=None, help='Maximal size of (any) image side.')
