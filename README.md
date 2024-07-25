@@ -3,12 +3,13 @@
 
 See example html files generatied using gallery maker: [Fru Jensen](https://vedranaa.github.io/FJ/) and [posters2022](https://www2.imm.dtu.dk/courses/02506/posters2022.html).
 
-For the simplest use, navigate to a folder with images and run `gallery_maker`. (Note the underscore, not hyphen. Sorry about that.) This will find images (jpg, png or gif) and create a html file of a gallery with images. Images may be either directly in the folder or in one subfolder.
+ ## SETUP
+Either install the package from PyPI with `pip install gallery-maker` or install from source.
 
- 
+## SIMPLEST USE
+For the simplest use, navigate to a folder with images and run `gallery_maker`. (Note the underscore, not hyphen.) This will find images (jpg, png or gif) and create a html file of a gallery with images. Images may be either directly in the folder or in one subfolder.
 
-## SETUP
-Either install the package from PyPI with `pip install gallery-maker` or install from source with the following steps
+For use as python module, and additional CLI options, see below.
 
 ## DEPENDENCIES
 Making gallery has no dependencies.
@@ -18,8 +19,9 @@ A helper function for image processin is included, and it has dependencies, wher
 - Converting pdf to images (only onepagers supported) uses [pdf2image](https://pypi.org/project/pdf2image/), which requires installing popler, as explained at pdf2image page.
 - Converting heic images uses [pillow_heif](https://pypi.org/project/pillow-heif/).
 
-## USAGE
-#### As Python module:
+## MORE USE OPTIONS
+### As Python module
+
 ```python
 import galmak as gm
 
@@ -36,7 +38,7 @@ gm.make_gallery(folder_out)
 Look up docstrings of `make_gallery` and `fix_images` for more details.
 
 
-#### From command line. 
+### From command line
 
 For default behaviour navigate to a folder with images and run 
 ```
